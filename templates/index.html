@@ -169,8 +169,6 @@
             if (response.Result == 'Success') {
               alert('Student updated successfully!');
               window.location.reload();
-            } else {
-              alert('Error updating student: ' + response.Message);
             }
           }
         });
@@ -189,8 +187,6 @@
             if (response.Result === 'Success') {
               alert('Student deleted successfully!');
               window.location.reload();
-            } else {
-              alert('Error deleting student: ' + response.Message);
             }
           }
         });
